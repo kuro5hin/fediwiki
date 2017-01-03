@@ -1,7 +1,7 @@
-====== Plugins ======
+# Plugins 
 GNU Social Plugins & Plugins documentation.
 
-=== List of Known Plugins ===
+# List of Known Plugins
   * [GiphyPlugin](https://github.com/mitchellurgero/gs_giphy_plugin)
   * [ContentFilter](https://github.com/mitchellurgero/gs_content_filter)
   * [Qvitter](https://git.gnu.io/h2p/Qvitter)
