@@ -1,4 +1,4 @@
-====== GNU Social Configuration Options ======
+# GNU Social Configuration Options 
 (To be edited later)
 
 Configuration options
