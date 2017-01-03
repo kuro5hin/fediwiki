@@ -1,4 +1,4 @@
-====== API ======
+# API 
 GNU Social API Documentation (XML/JSON/ATOM)
 
   * Twitter-compatible API
