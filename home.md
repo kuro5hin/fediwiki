@@ -1,7 +1,6 @@
 Welcome to FediWiki!
 
-This is a place where you can quickly get info about GNU Social.  You will need to register to be able to edit pages.
-
+This is a place where you can quickly get info about GNU Social.  You can help contribute by making a merge request at [our repo](https://gitgud.io/archaeme/fediwiki).
 
 # Wiki Menu 
 
