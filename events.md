@@ -194,7 +194,7 @@ StartAddressData: Allows the site owner to provide additional information about 
 
 - $action: the current action
 
-EndAddressData: At the end of <address>
+EndAddressData: At the end of `<address>`
 - $action: the current action
 
 StartShowSiteNotice: Before showing site notice
@@ -285,19 +285,19 @@ LoginAction: determines if an action is a 'login' action (OK for public view in 
 
 - $login: flag for whether this is a login action
 
-StartShowHead: called before showing the <head> element and children
+StartShowHead: called before showing the `<head>` element and children
 
 - $action: action object being show
 
-EndShowHead: called after showing the <head> element (and </head>)
+EndShowHead: called after showing the `<head>` element (and `</head>`)
 
 - $action: action object being shown
 
-StartShowBody: called before showing the <body> element and children
+StartShowBody: called before showing the `<body>` element and children
 
 - $action: action object being shown
 
-EndShowBody: called after showing the <body> element (and </body>)
+EndShowBody: called after showing the `<body>` element (and `</body>`)
 
 - $action: action object being shown
 
@@ -321,11 +321,11 @@ EndGroupGroupNav: At the end of the group nav menu
 
 - $action: the current action
 
-StartEndHTML: just before the </html> tag
+StartEndHTML: just before the `</html>` tag
 
 - $action: action object being shown
 
-EndEndHTML: just after the </html> tag
+EndEndHTML: just after the `</html>` tag
 
 - $action: action object being shown
 
@@ -343,11 +343,11 @@ EndShowDesign: just after showing a site, user, or group design
 
 - $action: action object being shown
 
-StartShowExportData: just before showing the <div> with export data (feeds)
+StartShowExportData: just before showing the `<div>` with export data (feeds)
 
 - $action: action object being shown
 
-EndShowExportData: just after showing the <div> with export data (feeds)
+EndShowExportData: just after showing the `<div>` with export data (feeds)
 
 - $action: action object being shown
 
@@ -505,11 +505,11 @@ EndLoadDoc: after loading a help doc (hook this to modify other documentation)
 
 - $output: HTML output to show
 
-StartApiRss: after the rss <channel> element is started
+StartApiRss: after the rss `<channel>` element is started
 
 - $action: action object being shown
 
-StartApiAtom: after the <feed> element is started
+StartApiAtom: after the `<feed>` element is started
 
 - $action: action object being shown
 
@@ -551,11 +551,11 @@ EndHtmlElement: Right after outputting the HTML element
 
 - &$attrs: attributes for the HTML element
 
-StartShowHeadElements: Right after the <head> tag
+StartShowHeadElements: Right after the `<head>` tag
 
 - $action: the current action
 
-EndShowHeadElements: Right before the </head> tag; put <script>s here if you need them in <head>
+EndShowHeadElements: Right before the `</head>` tag; put `<script>`s here if you need them in `<head>`
 
 - $action: the current action
 
@@ -717,11 +717,11 @@ EndProfilePageProfileTags: after showing the tags on the profile page
 
 - &$profile: the profile being shown
 
-StartProfileList: when starting a list of profiles (before <ul>)
+StartProfileList: when starting a list of profiles (before `<ul>`)
 
 - $profilelist: ProfileList widget, with $profile, $action, and $out
 
-EndProfileList: when ending a list of profiles (after </ul>)
+EndProfileList: when ending a list of profiles (after `</ul>`)
 
 - $profilelist: ProfileList widget
 
@@ -749,11 +749,11 @@ EndProfileListItemActions: the actions (buttons) for an item
 
 - $item: ProfileListItem widget
 
-StartProfileListItemProfileElements: inside the <div>
+StartProfileListItemProfileElements: inside the `<div>`
 
 - $item: ProfileListItem widget
 
-EndProfileListItemProfileElements: inside the <div>
+EndProfileListItemProfileElements: inside the `<div>`
 
 - $item: ProfileListItem widget
 
@@ -905,7 +905,7 @@ UserDeleteRelated: Specify additional tables to delete entries from when deletin
 
 GetUrlShorteners: Specify URL shorteners that are available for use
 
-- &$shorteners: append your shortener to this array like so:       $shorteners[shortenerName]=array('display'=>display, 'freeService'=>boolean)
+- &$shorteners: append your shortener to this array like so:       $shorteners[shortenerName]=array('display'=>`display, 'freeService'=>`boolean)
 
 StartShortenUrl: About to shorten a URL
 
@@ -923,7 +923,7 @@ EndShortenUrl: After a URL has been shortened
 
 - $shortenedUrl: short version of the url
 
-StartCssLinkElement: Before a <link rel="stylesheet"..> element is written
+StartCssLinkElement: Before a `<link rel="stylesheet"..>` element is written
 
 - $action
 
@@ -933,7 +933,7 @@ StartCssLinkElement: Before a <link rel="stylesheet"..> element is written
 
 - &$media
 
-EndCssLinkElement: After a <link rel="stylesheet"..> element is written
+EndCssLinkElement: After a `<link rel="stylesheet"..>` element is written
 
 - $action
 
@@ -943,7 +943,7 @@ EndCssLinkElement: After a <link rel="stylesheet"..> element is written
 
 - $media
 
-StartStyleElement: Before a <style...> element is written
+StartStyleElement: Before a `<style...>` element is written
 
 - $action
 
@@ -953,7 +953,7 @@ StartStyleElement: Before a <style...> element is written
 
 - &$media
 
-EndStyleElement: After a <style...> element is written
+EndStyleElement: After a `<style...>` element is written
 
 - $action
 
@@ -963,7 +963,7 @@ EndStyleElement: After a <style...> element is written
 
 - $media
 
-StartScriptElement: Before a <script...> element is written
+StartScriptElement: Before a `<script...>` element is written
 
 - $action
 
@@ -971,7 +971,7 @@ StartScriptElement: Before a <script...> element is written
 
 - &$type
 
-EndScriptElement: After a <script...> element is written
+EndScriptElement: After a `<script...>` element is written
 
 - $action
 
@@ -979,7 +979,7 @@ EndScriptElement: After a <script...> element is written
 
 - $type
 
-StartInlineScriptElement: Before a <script...> element is written
+StartInlineScriptElement: Before a `<script...>` element is written
 
 - $action
 
@@ -987,7 +987,7 @@ StartInlineScriptElement: Before a <script...> element is written
 
 - &$type
 
-EndInlineScriptElement: After a <script...> element is written
+EndInlineScriptElement: After a `<script...>` element is written
 
 - $action
 
@@ -1093,7 +1093,7 @@ EndShowContentLicense: Showing the default license for content
 
 GetImTransports: Get IM transports that are available
 
-- &$transports: append your transport to this array like so: $transports[transportName]=array('display'=>display)
+- &$transports: append your transport to this array like so: $transports[transportName]=array('display'=>`display)
 
 NormalizeImScreenname: Normalize an IM screenname
 
@@ -1285,19 +1285,19 @@ FileDeleteRelated: at the beginning of deleting related fields to a File
 
 - $notice: File being deleted
 
-StartShowHeadTitle: when beginning to show the <title> element
+StartShowHeadTitle: when beginning to show the `<title>` element
 
 - $action: action being shown
 
-EndShowHeadTitle: when done showing the <title>
+EndShowHeadTitle: when done showing the `<title>`
 
 - $action: action being shown
 
-StartShowPageTitle: when beginning to show the page title <h1>
+StartShowPageTitle: when beginning to show the page title `<h1>`
 
 - $action: action being shown
 
-EndShowPageTitle: when done showing the page title <h1>
+EndShowPageTitle: when done showing the page title `<h1>`
 
 - $action: action being shown
 
@@ -1337,17 +1337,17 @@ EndShowFeedLink: after showing an individual feed
 
 - $feed: feed to show
 
-StartShowNoticeForm: before showing the notice form (before <form>)
+StartShowNoticeForm: before showing the notice form (before `<form>`)
 
 - $action: action being executed
 
-EndShowNoticeForm: after showing the notice form (after <form>)
+EndShowNoticeForm: after showing the notice form (after `<form>`)
 
 - $action: action being executed
 
 StartShowEntryForms: microapp entry form tab data
 
-- &$tabs: tab assoc array with 'tag' => (title, href to create new entry)
+- &$tabs: tab assoc array with 'tag' =>` (title, href to create new entry)
 
 StartGrantRole: when a role is being assigned
 
@@ -1469,19 +1469,19 @@ EndProfileSettingsActions: when we're showing account-management action list
 
 - $action: Action being shown (use for output)
 
-StartOpenNoticeListItemElement: Before the opening <li> of a notice list element
+StartOpenNoticeListItemElement: Before the opening `<li>` of a notice list element
 
 - $nli: The notice list item being shown
 
-EndOpenNoticeListItemElement: After the opening <li> of a notice list element
+EndOpenNoticeListItemElement: After the opening `<li>` of a notice list element
 
 - $nli: The notice list item being shown
 
-StartCloseNoticeListItemElement: Before the closing </li> of a notice list element
+StartCloseNoticeListItemElement: Before the closing `</li>` of a notice list element
 
 - $nli: The notice list item being shown
 
-EndCloseNoticeListItemElement: After the closing </li> of a notice list element
+EndCloseNoticeListItemElement: After the closing `</li>` of a notice list element
 
 - $nli: The notice list item being shown
 
@@ -1521,13 +1521,13 @@ EndInterpretCommand: Before running a command
 
 - $result: Resulting command
 
-StartGroupActionsList: Start the list of actions on a group profile page (after <ul>, before first <li>)
+StartGroupActionsList: Start the list of actions on a group profile page (after `<ul>`, before first `<li>`)
 
 - $action: action being executed (for output and params)
 
 - $group: group for the page
 
-EndGroupActionsList: End the list of actions on a group profile page (before </ul>, after last </li>)
+EndGroupActionsList: End the list of actions on a group profile page (before `</ul>`, after last `</li>`)
 
 - $action: action being executed (for output and params)
 
@@ -1765,13 +1765,13 @@ EndProfileListItemTags: after showing people tags in a profile list item widget
 
 - $widget: ProfileListItem widget
 
-StartActivityObjectOutputAtom: Called at start of Atom XML output generation for ActivityObject chunks, just inside the <activity:object>. Cancel the event to take over its output completely (you're responsible for calling the matching End event if so)
+StartActivityObjectOutputAtom: Called at start of Atom XML output generation for ActivityObject chunks, just inside the `<activity:object>`. Cancel the event to take over its output completely (you're responsible for calling the matching End event if so)
 
 - $obj: ActivityObject
 
 - $out: XMLOutputter to append custom output
 
-EndActivityObjectOutputAtom: Called at end of Atom XML output generation for ActivityObject chunks, just inside the </activity:object>
+EndActivityObjectOutputAtom: Called at end of Atom XML output generation for ActivityObject chunks, just inside the `</activity:object>`
 
 - $obj: ActivityObject
 
