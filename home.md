@@ -4,10 +4,9 @@ This is a place where you can quickly get info about GNU Social.  You can help c
 
 # Wiki Menu 
 
-  * Plugins
-  * Events
-  * API
-  * Misc Documentation
+  * [Plugins](?page=plugins.md)
+  * [Events](?page=events.md)
+  * [API](?page=api.md)
 
 # Other Useful Links 
   * [postActiv documentation](https://www.postactiv.com/docs/)
