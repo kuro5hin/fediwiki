@@ -5,4 +5,4 @@ will take effect on the live server within an hour after they're pushed to the r
 
 This wiki is made up of Markdown files.  [Here's a good reference for the Markdown syntax.](https://en.support.wordpress.com/markdown-quick-reference/)
 To create a new page, simply make a new file with a .md extension and use whatever text editor you prefer.  Preferrably the files should use
-UNIX-style line endings (simply `\n` and no carriage return `\r`'s).
+UNIX-style line endings (just newline chracters and no carriage returns).
