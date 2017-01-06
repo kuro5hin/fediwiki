@@ -8,6 +8,7 @@ at [our repo](https://gitgud.io/archaeme/fediwiki) ([more info](?page=CONTRIBUTI
   * [Plugins](?page=plugins.md)
   * [Events](?page=events.md)
   * [API](?page=api.md)
+  * [Themes](?page=themes.md)
 
 # Other Useful Links 
   * [postActiv documentation](https://www.postactiv.com/docs/)
