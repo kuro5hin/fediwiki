@@ -1,5 +1,5 @@
 # List of known good GNU/Social instances
-This is a list of known GOOD, very limited content filtering(illegal items removed only), and allow registration GNU/Social, 0status, or other compatible services.
+This is a list of known GOOD, very limited content filtering(illegal items removed only), and allow registration, [OStatus](https://en.wikipedia.org/wiki/OStatus), or other compatible services.
 
 - [GNUSocial.me](https://gnusocial.me) (U.S. Based GNU/Social Instance) (Moderate Content Filtering) (postActiv based) (Widescreen compatible)
 - [Quitter.se](https://quitter.se) (Swedish GNU/Social Instance)
