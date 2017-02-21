@@ -1,4 +1,4 @@
-# Easy How To: Installing and Using Mastodon Micro-blogging server
+# Mastodon Super-Tutorial! 
 This will be a VERY simple, easy to use tutorial. This will not cover customizing, however it does cover:
 
 - Installing Mastodon
@@ -12,18 +12,17 @@ This tutorial expects that you are running on Ubuntu 15.04+. However - This can 
 We also expect that your VPS/Dedicated machine has an external IP Address, that is properly routed and a domain name to go with it! (You need it for SSL cert!!)
 
 ## Tutorial Menu
-
+- [Mastodon Official Documentation (Should see first)](https://github.com/tootsuite/mastodon/tree/master/docs)
 - [Warnings & Common Sense](#warnings)
 - [Requirements](#Requirements)
 - [Installing Docker](#InstallDocker)
-	- [Installing docker-compose](#InstallDockerCompose)
+- [Installing docker-compose](#InstallDockerCompose)
 - [Download Mastodon](#GetMastodon)
 - [Building Mastodon & Installing Mastodon Dependencies](#BuildMastodon)
 - [Install & proxy through nginx](#InstallNginx)
 - [Setup cron jobs for Mastodon cleaning](#SetupCron)
 - [Maintainence & Troubleshooting of Mastodon](#Troubleshooting)
 - [Maintainence & Troubleshooting of Nginx](#nginx)
-
 
 <a name="warnings"></a>
 ## Warnings & Common Sense
