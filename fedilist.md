@@ -9,4 +9,4 @@ This is a list of known GOOD, very limited content filtering(illegal items remov
 - [Mastodon.social](https://mastodon.social) (0status compatible service running Mastodon.)(Moderate Content Filtering)
 - [Shitposter Club](https://shitposter.club) (Almost no content filtering, GS instance) (Adult content frequent)
 
-If you would like your instance posted here, please either put in a merge/pull request, or email/contact [mitchell](https://gnusocial.me/mitchell) (Email: info@urgero.org) or [archaeme](https://gs.archae.me/archaeme): Email: normandy@firemail.cc
+If you would like your instance posted here, please either put in a merge/pull request, or email/contact [mitchell](https://gnusocial.me/stitch) (Email: info@urgero.org) or [archaeme](https://gs.archae.me/archaeme): Email: normandy@firemail.cc
