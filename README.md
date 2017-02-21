@@ -1,16 +1,16 @@
 Welcome to FediWiki!
 
 This is a place where you can quickly get info about GNU Social.  You can help contribute by making a merge request 
-at [our repo](https://gitgud.io/archaeme/fediwiki) ([more info](?page=CONTRIBUTING.md)).
+at [our repo](https://github.com/mitchellurgero/fediwiki/) ([more info](CONTRIBUTING.md)).
 
 # Wiki Menu 
 
-  * [Plugins](?page=plugins.md)
-  * [Events](?page=events.md)
-  * [API](?page=api.md)
-  * [Themes](?page=themes.md)
-  * [Using search](?page=search.md)
-  * [List of known good services](?page=fedilist.md)
+  * [Plugins](plugins.md)
+  * [Events](events.md)
+  * [API](api.md)
+  * [Themes](themes.md)
+  * [Using search](search.md)
+  * [List of known good services](fedilist.md)
 
 # Other Useful Links 
   * [postActiv documentation](https://www.postactiv.com/docs/)
