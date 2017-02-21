@@ -11,6 +11,7 @@ at [our repo](https://github.com/mitchellurgero/fediwiki/) ([more info](CONTRIBU
   * [Themes](themes.md)
   * [Using search](search.md)
   * [List of known good services](fedilist.md)
+  * [Mastodon Related Information](mastodon_install.md)
 
 # Other Useful Links 
   * [postActiv documentation](https://www.postactiv.com/docs/)
