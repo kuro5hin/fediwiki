@@ -101,7 +101,7 @@ So before we continue we need to do the following:
 <a name="BuildMastodon"></a>
 ## Building Mastodon
 Since we are using docker for this, building mastodon is actually pretty straight forward.
-
+ 
 <a name="InstallMastodon"></a>
 ### Mastodon install
 1. Make sure you are in the mastodon source folder. (For this tutorial it might be /home/mastodon/mastodon)
