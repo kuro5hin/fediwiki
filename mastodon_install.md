@@ -102,11 +102,13 @@ So before we continue we need to do the following:
 ## Building Mastodon
 Since we are using docker for this, building mastodon is actually pretty straight forward.
 
+<!--
 ### Dependency install
 Just some simple depends for Mastodon software and features.
 
 1. ```sudo apt-get install imagemagick ffmpeg libpq-dev libxml2-dev libxslt1-dev nodejs```
 > Not all of them might be needed, but regardless, all good to have!!!
+-->
 
 <a name="InstallMastodon"></a>
 ### Mastodon install
