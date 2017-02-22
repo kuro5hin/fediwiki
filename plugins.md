@@ -5,6 +5,7 @@ GNU Social Plugins & Plugins documentation.
   * [GiphyPlugin](https://github.com/mitchellurgero/gs_giphy_plugin)
   * [ContentFilter](https://github.com/mitchellurgero/gs_content_filter)
   * [Qvitter](https://git.gnu.io/h2p/Qvitter)
+  * [QvitterMore](https://github.com/mitchellurgero/qvitter)
   * [QvitterPlus](https://gitgud.io/panjoozek413/qvitterplus/tree/master)
   * [More Here](http://www.skilledtests.com/wiki/GNU_social_plugins)
 
