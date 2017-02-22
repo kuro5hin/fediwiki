@@ -1,3 +1,6 @@
+## *This guide is for Server Admins only, for user guides please see [this site](http://mastoguide.info)*
+
+
 # Mastodon Super-Tutorial! 
 This will be a VERY simple, easy to use tutorial. This will not cover customizing, however it does cover:
 
