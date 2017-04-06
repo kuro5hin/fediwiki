@@ -5,6 +5,7 @@ GNU Social Plugins & Plugins documentation.
   * [GiphyPlugin](https://github.com/mitchellurgero/gs_giphy_plugin)
   * [ContentFilter](https://github.com/mitchellurgero/WordChanger)
   * [FollowExport](https://github.com/mitchellurgero/FollowExport)
+  * [pA Update Checker](https://github.com/mitchellurgero/PaUpdate)
   * [Qvitter](https://git.gnu.io/h2p/Qvitter)
   * [QvitterMore](https://github.com/mitchellurgero/qvitter)
   * [QvitterPlus](https://gitgud.io/panjoozek413/qvitterplus/tree/master)
