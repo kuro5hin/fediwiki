@@ -123,8 +123,8 @@ Since we are using docker for this, building mastodon is actually pretty straigh
 7. ```docker-compose run --rm web rails assets:precompile```
 > Precompile the asset cache for SPEED.
 
-8. ```docker-compose build```
-> Needed again after the precompile command always.
+8. ```docker-compose restart web```
+> Needed again after the precompile command always, to pick up the new bundles.
 
 <a name="InstallNginx"></a>
 ## Installing nginx to proxy to mastodon.
